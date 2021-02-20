@@ -22,8 +22,7 @@ ng build --prod --baseHref="https://piratheesht.github.io/my-angular-app/"
 
 git add .
 
-git commit -m "generated deployables"
-
+git commit -m "generated deploy
 git push -u origin master
 
 Configure Your GitHub Repository for Publishing on GitHub Pages
