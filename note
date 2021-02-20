@@ -11,9 +11,21 @@ ng serve
 
 git remote add origin https://github.com/piratheesht/my-angular-app.git
 
-git push -u origin master //refresh and see the content
+git remote -v
+
+git push -u origin master //refresh and see the content you must create repository in the same name
 
 
 change angular.json outputpath to docs/
 
 ng build --prod --baseHref="https://piratheesht.github.io/my-angular-app/"
+
+git add .
+
+git commit -m "generated deployables"
+
+git push -u origin master
+
+Configure Your GitHub Repository for Publishing on GitHub Pages
+Once the docs folder is pushed into your GitHub repository, you need to open the repository settings and go to the GitHub Pages section and select “master branch/docs folder” from the source dropdown. And that's it!
+
