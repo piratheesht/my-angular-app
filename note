@@ -1,0 +1,19 @@
+mkdir my-angular-app
+
+cd my-angular-app
+
+npm i @angular/cli
+
+ng new my-angular-app --directory ./
+
+ng serve
+
+
+git remote add origin https://github.com/piratheesht/my-angular-app.git
+
+git push -u origin master //refresh and see the content
+
+
+change angular.json outputpath to docs/
+
+ng build --prod --baseHref="https://piratheesht.github.io/my-angular-app/"
